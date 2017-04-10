@@ -1,0 +1,97 @@
+body {
+	background-color: #101010;
+	margin:0;
+    padding:0;
+}
+
+#header {
+	background-color: #0066FF;
+	height: 40px;
+	color: #FFFFFF;
+}
+
+#container {
+	width: 1050px;
+	margin: 0 auto;
+}
+
+#users {
+	width:20%;
+	height: 600px;
+	float: left;
+	background-color: #282828;
+	margin: 1px;
+}
+
+#content {
+	width: 67%;
+	height: 600px;
+	float: left;
+	background-color: lightgray;
+	margin: 1px;
+	padding: 40px;
+}
+
+#header ul {
+	list-style-type:none;
+	margin:0;
+	margin-left: 150px;
+	padding:0;
+} 
+
+#header li {
+	display: inline;
+	float: left;
+}
+
+#header a {
+	display: block;
+	width: 80px;
+	text-decoration:none;
+	text-align: center;
+	padding: 9px;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+.formAlign {
+	display: inline-block;
+	width: 110px;
+}
+
+.divAlign {
+	/*margin-left: 40px;*/
+}
+
+#users li {
+	color: #FFFFFF;
+}
+
+#users h4 {
+	color: #FFFFFF;
+	margin-left: 15px;
+}
+
+#compose #msgCompose {
+	width: 500px
+}
+
+#messages {
+	border: 1px solid black;
+}
+
+.msg {
+	display: block;
+}
+
+#loginStatus {
+	color: red;
+}
+
+#signUp {
+	display: none;
+}
+
+#login {
+	display: none;
+}
